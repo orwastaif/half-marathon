@@ -1,0 +1,43 @@
+.rhombus {
+    position: absolute;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transform: rotate(45deg);
+  }
+  
+  .rhombus[value="off"] {
+    border: 3px dashed black;
+  }
+  
+  #mind_stone {
+    background-color: rgb(165, 165, 65);
+  }
+  
+ 
+  #soul_stone {
+    background-color: rgb(109, 30, 30);
+  }
+  
+ 
+  #time_stone {
+    background-color: rgb(127, 216, 127);
+  }
+  
+  
+  #strength_stone {
+    background-color: rgb(83, 41, 83);
+  }
+  
+
+  #reality_stone {
+    background-color: rgb(187, 100, 100);
+  }
+  
+
+  #space_stone {
+    background-color: rgb(51, 51, 148);
+  }
+  
+  
+  

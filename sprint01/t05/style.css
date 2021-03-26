@@ -1,0 +1,23 @@
+div{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+input{
+    padding: 0 10px 0 10px;
+    height: 2em;
+    width: 100%;
+    color: rgb(27, 182, 27);
+}
+input:hover{
+    color: red ;
+}
+button{
+    color: green;
+}
+button:hover{
+    color: red;
+}
+input::placeholder{
+  color: rgb(26, 165, 100);
+}

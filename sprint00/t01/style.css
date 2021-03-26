@@ -1,0 +1,63 @@
+img{
+    width: 120px;
+    height: 120px;
+    border-radius: 30px;
+}
+ 
+ table 
+ 
+ {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    border: 2px solid gray;
+    width: auto;
+    }
+            
+    td {
+    border: 1px solid #f8f4f4;
+    
+    text-align: center;
+     padding: 8px;
+    }
+            
+    tr:nth-child(1) {
+       background-color: #040404;
+       color: white
+       
+   }
+   tr:nth-child(2) {
+    background-color: rgb(180, 116, 37);
+    color: black
+}
+tr:nth-child(3) {
+    background-color: green;
+    color: black
+}
+tr:nth-child(4) {
+    background-color: rgb(53, 53, 143);
+    color: black
+}
+tr:nth-child(5) {
+    background-color: rgb(205, 205, 17);
+    color: black
+}
+tr:nth-child(6) {
+    background-color: rgb(148, 37, 37);
+    color: black
+}
+tr:nth-child(7) {
+    background-color: rgb(126, 17, 126);
+    color: black
+}
+tr:nth-child(8) {
+    
+    background-color: rgb(206, 200, 206);
+    color: rgb(252, 249, 249)
+
+    
+}
+#foot{
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}

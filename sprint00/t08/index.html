@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Superhero Form</title>
+</head>
+<body>
+    <h1>Superhero Form</h1>
+    <form>
+        <fieldset>
+    <fieldset>
+    <legend>About the Superhero</legend>
+  
+      <label for="real"> Real Name</label>
+      <input placeholder="Superhero real name"  id="real">
+      <label for="super"> Superhero Name</label>
+      <input placeholder="Superhero alias"  id="super">
+      <label for="age"> Age</label>
+      <input  id="age"><br><br>
+      <label for="about"> About</label>
+      <textarea placeholder="Information about the superhero, max 500 symbols" id="about" rows="5" cols="33" maxlength="500"></textarea><br><br>
+      <label> Photo:</label>
+      <input type="file" id="myFile" name="filename">
+  
+</fieldset>
+<fieldset>
+    <legend>Powers</legend>
+    <input type="checkbox"> 
+    <label >Telekinesis</label>
+    <input type="checkbox"> 
+    <label >Super strength and speed</label>
+    <input type="checkbox"> 
+    <label >Shapeshifting</label>
+    <input type="checkbox"> 
+    <label >Flight</label>
+    <input type="checkbox"> 
+    <label >Element control</label>
+    <input type="checkbox"> 
+    <label >Other</label><br><br>
+    <label >Level of control:</label>
+    <input type="range">
+
+</fieldset>
+<fieldset>
+    <legend>Origin of Powers</legend>
+    <input type="radio">
+    <label >Unknown</label>
+    <input type="radio">
+    <label >Freak lab accident</label>
+    <input type="radio">
+    <label >Chosen by an ancient wise being</label>
+    <input type="radio">
+    <label >The superhero is not human</label>
+    <input type="radio">
+    <label >Other</label>
+</fieldset>
+<p>
+<input type="button" value="clear">
+<input type="button" value="send">
+</p>
+</fieldset>
+</form>
+</body>
+</html>

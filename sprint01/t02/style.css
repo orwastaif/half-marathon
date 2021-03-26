@@ -1,0 +1,17 @@
+.image img{
+    width: 300px;
+    height: 300px;
+    
+}
+.man img{
+    width: 100px;
+    height: 100px;
+}
+
+
+.image:hover + .man img:nth-child(2n+1){
+    opacity: 0;
+}
+
+   
+

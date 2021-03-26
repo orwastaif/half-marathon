@@ -1,0 +1,55 @@
+table{
+    border-collapse: collapse;
+    border: 4px;
+    text-align: center;
+    background: linear-gradient(90deg,#6e0000, antiquewhite);
+    font: bold;
+    width: 70%;
+    height: 200%;
+}
+ table thead  {
+    color: #ffe369;
+    background-color: rgba(110, 0, 0, 0.4);
+    border-color: rgba(189, 195, 199, 0.05);
+    padding: 10px;
+    font: bold;
+    border: 2px;
+}
+.odd{
+    color: white;
+    font: bold;
+    background-color:darkred;
+    
+}
+.even{
+    color: white;
+    font: bold;
+    background-color: rgba(143, 148, 251, 0.1);
+
+}
+
+.ne{
+    background-color: rgb(77, 8, 8);
+    color: white;
+}
+.false{
+    background-color: rgb(77, 8, 8);
+    color: white;
+}
+tbody{
+    color: midnightblue;
+    border: 2px;
+    border-color: rgba(189, 195, 199, 0.05);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+tbody tr td {
+    background-color: antiquewhite;
+}
+
+a{
+    color: white;
+}

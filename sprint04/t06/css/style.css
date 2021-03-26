@@ -1,0 +1,31 @@
+img {
+    margin-bottom: 30px;
+    align-items: center;
+  }
+  
+  .header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  h2 {
+    width: fit-content;
+  }
+  
+  #counter {
+
+    text-align: right;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-left: calc(100% - 200px);
+    background-color: red;
+    height: fit-content;
+    margin-top: 25px;
+  }
+  #images{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }

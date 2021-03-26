@@ -1,0 +1,39 @@
+table{
+    text-align: center;
+    border: 3px solid black;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+th{
+    background-color: red;
+    padding: 10px 5px;
+
+    margin: 0;
+
+}
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+#placeholder{
+    text-align: right;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-left: auto;
+    background-color: gray;
+    height: fit-content;
+    margin-top: 25px;
+}
+
+td{
+    background-color: lightgray;
+    padding: 15px 5px;
+}
+
+#notification{
+    display: none;
+}

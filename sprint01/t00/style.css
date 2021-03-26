@@ -1,0 +1,16 @@
+img{
+   width: 40%;
+   height: 20%;
+    float: left;
+    margin: 10px 10px;
+}
+@media print{
+    img {
+        float: none;
+        
+    }
+    
+}
+ body{
+    margin: 20px 20px 20px 20px;
+}

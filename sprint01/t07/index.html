@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Products</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__inner">
+			<a href="#" class="header__title">DAMASK</a>
+			<nav class="header__menu">
+				<ul class="header__list">
+					<li class="header__list-item">
+						<a href="#" class="header__list-link">About</a>
+					</li>
+					<li class="header__list-item">
+						<a href="#" class="header__list-link">Service</a>
+					</li>
+					<li class="header__list-item">
+						<a href="#" class="header__list-link">Contact</a>
+					</li>
+				</ul>
+				<input type="text" class="header__search" placeholder="Search" />
+				<a href="tel:096546478453558" class="header__tel">Phone: 096546478453558</a>
+			</nav>
+		</div>
+	</header>
+	<div class="breadcrumbs">
+		<div class="breadcrumbs__inner">
+			<div class="breadcrumbs__item">
+				<a href="#" class="breadcrumbs__item-link">Home</a>
+			</div>
+			<div class="breadcrumbs__divider">/</div>
+			<div class="breadcrumbs__item breadcrumbs__item--active">Catalog</div>
+		</div>
+	</div>
+	<div class="wrapper">
+		<div class="main">
+			<div class="container">
+				<h1 class="title">Catalog</h1>
+				<div class="active__filters">
+					
+					
+				</div>
+				<div class="content">
+					<div class="content__item filter">
+						<div class="filter__item">
+							<p class="filter__title">Type of Instrument:</p>
+							<div class="filter__checkbox">
+								<input type="checkbox" id="ch1" name="ch1" class="filter__checkbox-input" /><label
+									for="ch1" class="filter__checkbox-label">
+									Oriental
+								</label>
+							</div>
+							<div class="filter__checkbox">
+								<input type="checkbox" id="ch2" name="ch2" class="filter__checkbox-input" /><label
+									for="ch2" class="filter__checkbox-label">Western</label>
+							</div>
+							
+						</div>
+
+						<div class="filter__item">
+							<p class="filter__title mt15">Price</p>
+							<input class="filter__price" min="0" max="999999" type="range" name="price" />
+							<div class="filter__price-options">
+								<span class="filter__price-from">0</span>
+								<span class="filter__price-to">999999</span>
+							</div>
+						</div>
+
+					</div>
+					<div class="content__item product">
+						<div class="product__items">
+							<div class="product__card product__card--notavailable">
+								<div class="product__card-img"><img src="assets/images/violin.png" alt="violin"></div>
+								<div class="product__card-info">
+									<h3 class="product__card-title">violin</h3>
+									<div class="product__card-price">50000$</div>
+									<div class="product__card-available "></div>
+									<a href="card.html" class="product__card-btn btn">Buy</a>
+								</div>
+
+							</div>
+							<div class="product__card ">
+								<div class="product__card-img"><img src="assets/images/kanun.jpg" alt="kanun"></div>
+								<div class="product__card-info">
+									<h3 class="product__card-title">Kanun</h3>
+									<div class="product__card-price">600000$</div>
+									<div class="product__card-available"></div>
+									<a href="card.html" class="product__card-btn btn">Buy</a>
+								</div>
+							</div>
+							<div class="product__card">
+								<div class="product__card-img"><img src="assets/images/Oud_icone.png" alt="Oud"></div>
+								<div class="product__card-info">
+									<h3 class="product__card-title">Oud</h3>
+									<div class="product__card-price">700000$</div>
+									<div class="product__card-available"></div>
+									<a href="card.html" class="product__card-btn btn">Buy</a>
+								</div>
+
+							</div>
+							<div class="product__card product__card--notavailable">
+								<div class="product__card-img"><img src="assets/images/piano.png" alt="piano"></div>
+								<div class="product__card-info">
+									<h3 class="product__card-title">piano</h3>
+									<div class="product__card-price">80000$</div>
+									<div class="product__card-available "></div>
+									<a href="card.html" class="product__card-btn btn">Buy</a>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__inner">
+					<div class="footer__desc">Copyright @ 2021| DAMASK | All Rights Reserverd</div>
+					<p class="footer__links">
+						<a href="#">Terms of Service</a> |
+						<a href="#">Privacy Policy</a>
+					</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+
+</body>
+
+</html>
